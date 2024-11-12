@@ -45,7 +45,6 @@ To build and run this Spring Boot application, the following setup is implemente
  
 2. Build the Project:
 	```bash
-	Copiar código
 	mvn clean install
 	
 	
@@ -54,7 +53,9 @@ To build and run this Spring Boot application, the following setup is implemente
 1. Run the Application:
 	```bash
 	mvn spring-boot:run
-	This will start the server, typically on http://localhost:8080
+	
+	
+This will start the server, typically on http://localhost:8080
 	
 2. Testing the Application
 	```bash
@@ -82,7 +83,7 @@ Example Request:
 GET /api/prices?productId=35455&brandId=1&applicationDate=2023-11-12T10:00:00
 
 Response:
-```bash
+
 {
     "productId": 35455,
     "brandId": 1,
