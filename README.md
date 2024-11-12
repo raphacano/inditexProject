@@ -41,11 +41,10 @@ To build and run this Spring Boot application, the following setup is implemente
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/raphacano/inditexProject
-   cd price-service-api
  
  
 2. Build the Project:
-	bash
+	```bash
 	Copiar código
 	mvn clean install
 	
@@ -53,10 +52,12 @@ To build and run this Spring Boot application, the following setup is implemente
 ## Getting Started	
 
 1. Run the Application:
+	```bash
 	mvn spring-boot:run
 	This will start the server, typically on http://localhost:8080
 	
 2. Testing the Application
+	```bash
 	mvn test
 	
 
@@ -77,10 +78,11 @@ applicationDate (required): Date and time for which the price is queried (format
 
 Example Request:
 
+```bash
 GET /api/prices?productId=35455&brandId=1&applicationDate=2023-11-12T10:00:00
 
 Response:
-
+```bash
 {
     "productId": 35455,
     "brandId": 1,
